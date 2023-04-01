@@ -1,0 +1,86 @@
+<html>
+    <body>
+        <h1 id="heading">ANIMI-FORMS</h1>
+        <img src="">
+		<style>
+			body{
+    background-color:black;
+}
+#heading{
+    background-color:orange;
+    color:white;
+    border-radius:3px;
+    text-align:center;
+    position:relative;
+    bottom:25px;
+    width:500px;
+    right:50px;
+}
+label{
+    color:white;
+    padding-bottom:80px;
+}
+select{
+     border-width:1px;
+    border-color:orange;
+    background-color:black;
+    width:350px;
+    height:60px;
+    color:orange;
+    
+}
+input{
+    border-width:1px;
+    border-color:orange;
+    background-color:black;
+    width:350px;
+    height:60px;
+    color:orange;
+    border-radius:1px;
+}
+#different{
+    position:relative;
+    bottom:550px;
+    left:500px;
+}
+#descriptionTextBox{
+    position:relative;
+    bottom:550px;
+    left:500px;
+    width:500px;
+    height:300px;
+}
+Button{
+    color:white;
+    background-color:orange;
+    position:relative;
+    bottom:500px;
+    left:500px;
+    border-radius:40px;
+    width:150px;
+    height:50px;
+}
+</style>
+    </body>
+    <form>
+        <label>ANIMI-Name</label><br>
+        <input id="nameTextBox" type="text">
+        <br><br><br><label>ANIMI-(ORIGIN-COUNTRY)</label><br>
+        <select id="countryTextBox">
+            <option></option>
+            <option>Japan</option>
+            <option>China</option>
+            <option>Korean</option>
+        </select><br><br><br>
+        <label>No.of.Episodes</label><br>
+        <input id="noOFEpisodeTextBox" type="number"><br><br><br>
+        <label>YOUR RATING</label><br>
+        <input id="yourRatingTextBox" type="number" min=0 max=10><br><br><br>
+        <label>Awards</label><br>
+        <input id="awardsTextBox" type="text"><br><br><br>
+        <label id="different">DESCRIPTION ABOUT THE ANIMI</label><br>
+        <input id="descriptionTextBox" type="text"><br><br><br>
+        <button id="submitButton">submit</button>
+        
+    </form>
+</html>
